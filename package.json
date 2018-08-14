@@ -1,0 +1,28 @@
+{
+  "name": "@theo.gravity/crypto-trader",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "trade": "node --require babel-register src/bin/trade.js",
+    "trade:debug": "node --inspect-brk --require babel-register src/bin/trade.js",
+    "build": "babel src -d lib",
+    "test": "",
+    "standard-fix": "standard --fix"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "bignumber.js": "^7.2.1",
+    "ccxt": "^1.17.101",
+    "slackbots": "^1.1.0",
+    "yargs": "^12.0.1"
+  }
+}
