@@ -1,4 +1,4 @@
-# crypto-trader-server
+# trading-bot-example
 
 Something I built in hours to impl trailing stop losses on the sell side via Binance.
 
@@ -49,4 +49,4 @@ npm run trade sell-stop-limit --tradePair XLM/USDT \
 --sell.reduceStopOffsetPriceBy .75 --sell.reduceStopOffsetPriceByMax 80 \
 --simulate
 ```
-# trading-bot-example
+
