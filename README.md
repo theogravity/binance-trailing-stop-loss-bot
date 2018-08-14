@@ -4,7 +4,7 @@ Something I built in hours to impl trailing stop losses on the sell side via Bin
 
 # Disclaimer
 
-Code is really bad, use at your own risk. The code will have bugs, the numbers may
+Code is really messy, use at your own risk. The code will have bugs, the numbers may
 be inaccurate, etc. I take no responsibility for any losses or damage you may
 incur running this code.
 
